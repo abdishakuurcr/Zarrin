@@ -1,0 +1,319 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.Parent{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 23px;
+    margin-bottom: 10px;
+}
+.Parent ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.Parent i {
+display: none;
+}
+/* .Parent img {
+background-color: red;
+font-size: 12px;
+width: 50px; */
+
+.Parent button{
+    background-color: #7C4EE4;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 2vh;
+}
+.Mian{
+    display: flex;
+    background-color: #7C4EE4;
+    padding-top: 23px;
+    height: 600px;
+}
+.Child1{
+    padding-top: 0px;
+    color: white;
+    padding-left: 33px;
+}
+.Child1 p{
+    padding-left: 12px;
+    padding-bottom: 10px;
+    font-size: 34px;
+}
+.Child1 h1{
+padding-top: 10px;
+font-size: 56px;
+}
+.Child1 h4{
+    padding-top: 10px;
+    font-size: 22px;
+}
+.Child1 button{
+    padding-left: 17px;
+   border-radius: 2px;
+    background-color: white;
+    font-size: 17px;
+    border: none;
+    width: 140px;
+    height: 50px;
+    margin-top: 23px;
+}
+.Child2 img {
+    width: 400px;
+    height: 300px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+.Main-parent{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: white;
+}
+.Main-parent h1{
+    margin-top: 20px;
+}
+.button{
+   margin-top: 13px;
+   border-radius: 2px;
+    background-color: #7C4EE4;
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    height: 45px;
+    
+}
+.Image{
+    display: flex;
+    gap: 23px;
+    padding-top: 23px;
+}
+.Image img{
+    margin-left: 20px;
+   
+    width: 300px;
+}
+.qoraal p span{
+    color: gray;
+    padding-left: 10px;
+}
+.qoraal h1{
+    padding-top: 22px;
+    font-size: 29px;
+
+}
+.qoraal h5{
+    padding-top: 22px;
+    font-size: 27px;
+    height: 20px;
+    font-weight: 100;
+}
+.qoraal button{
+    background-color: #7C4EE4;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 130px;
+   top: 20px;
+    height: 50px;
+    border-radius: 4px;
+}
+.Mom {
+    display: flex;
+   gap: 160px;
+   padding-left: 44px;
+   margin-top: 65px;
+}
+.Boy1 img {
+width: 300px;
+height: 200px;
+}
+.Boy1 p span{
+    color: gray; 
+}
+.Boy1 p{
+    margin-top: 20px;
+}
+.Boy1 h1{
+    margin-top: 20px;
+}
+.All {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 60px;
+    margin-top: 65px;
+
+}
+.All button{
+    background-color: #7C4EE4;
+    width: 105px;
+    height: 37.98px;
+    color: white;
+    border-radius: 5.78px;
+    border: none;
+    font-size: 17px;
+}
+.gril2 p span{
+    color: gray;
+    margin-top: 20px;
+
+}
+.gril2 img{
+width: 300px;
+height: 200px;
+}
+.Footer{
+    background-color: #7C4EE4;
+    /* padding-left: 400px; */
+    
+    /* padding-top: 33px;
+    margin-top: 50px;
+    height: 290px; */ 
+}
+.Footer h1{
+    color: white;
+    font-size: 37.34px;
+    padding-bottom: 20px;
+}
+input[type=email] {
+    width: 240px;
+    height: 40px;
+    padding: 12px 10px;
+    font-size: 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Footer button{
+    font-size: 17px;
+    border: 4px white;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+}
+.Footer p{
+    color: #BBBBBB;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.Footer p span{
+    padding-left: 80px;
+}
+.Footer2{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.Footer2 ul{
+    display: flex;
+    gap: 22px;
+    list-style: none;
+    padding-top: 15px;
+    
+}
+.Footer2 img{
+ padding-top: 20px;
+ padding-left: 33px;
+}
+.hr {
+    background-color: #7C4EE4;
+}
+
+
+
+@media screen  and (max-width: 600px){
+    .Parent img {
+    width: 70px;
+    font-size: 12px;
+    height: 50px;
+    margin-left: -120px;
+    }
+
+    .Parent ul {
+    display: none;
+
+    }
+    .Parent button{
+    display: none;
+    }
+    .Parent i {
+    font-size: 50px;
+   margin-right:  -110px;
+    }
+    .Mian p {
+    font-size: 20px;
+    }
+    .Mian h1 {
+    font-size: 30px;
+    padding-top: 0px;
+    width: 200px;
+    }
+    .Mian h4 {
+    font-size: 20px;
+    width: 300px;
+    }
+     .Mian Child2 {
+    flex-direction: column;
+   margin-top: 90px;
+    width: 150px;
+    height:  150px;
+    }
+
+    .All  h1{
+    font-size: 30px;
+    width: 400px;
+    margin-top:0px;
+    margin-left: -40px;
+    margin-top: 90px;
+    }
+    .All button {
+        margin-top:0px;
+        margin-left: -40px;
+        margin-top: 90px;
+    }
+
+    .Image {
+  display: block;
+    margin-left: 20px;
+
+    }
+    .Image h5 {
+    width: 350px;
+    }
+    .Mom {
+    flex-direction: column;
+    margin: 0px;
+    }
+    .Footer {
+    display: block;
+    margin: 0px;
+    margin-left: 0px;
+    }
+    .Footer h1 {
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-left: 100px;
+    }
+    /* Footer p{
+    font-size: 15px;
+    width: 200px;
+    } */
+   .qoraal button{
+    margin-top: 0px;
+   }
+}
+
